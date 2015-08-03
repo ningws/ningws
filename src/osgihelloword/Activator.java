@@ -6,6 +6,7 @@ public class Activator implements BundleActivator {
 	private static BundleContext context;
 
 	static BundleContext getContext() {
+	
 		return context;
 	}
 
@@ -15,7 +16,7 @@ public class Activator implements BundleActivator {
 	 */
 	public void start(BundleContext bundleContext) throws Exception {
 		//Activator.context = bundleContext;
-		System.out.println("My osgiTest Start");
+		System.out.println("My osgiTest Start 123");
 	}
 	/*
 	 * (non-Javadoc)
